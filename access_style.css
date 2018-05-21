@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/*アクセスの項目で適用するスタイルシート*/
+
+
+
+/*地図の出典を表す文のフォント*/
+.info{font-size:70%;  text-align:right; }
+
+/* 駅と大学の標高差を表したグラフの中央寄せ*/
+.graph{text-align:center;}
+
+/*駅と大学の標高差を表したグラフのサイズ*/
+.graph_size{width:70%; }
+
+/*google mapという表題とgoogle mapの間の間隔*/
+.g_map{margin-top:1em; }
+
+/*trainの部分の間隔調整に使う。a1は1.  三ツ沢上町駅の部分、　a2は 2. 和田町駅の部分
+a3は英語のフォントの部分 */
+.train_a1{margin-top:1em;}
+
+.train_a2{margin-top:1em;}
+
+.train_a3{margin-top:1em;}
+
+/*adress_telephoneの部分の間隔調整に使う。a1は電話という表題と電話番号を合わせた部分
+a2は表題を除いた所すなわち太字ではない部分で実際の住所と実際の電話番号の部分に該当。
+a3は住所の英語表記の部分*/
+.adress_a1{margin-top:1em;}
+
+.adress_a2{margin-top:1em;}
+
+.adress_a3{margin-top:1em;}
+
+/*黒太字で書いている表題のフォントの大きさ。　
+住所、電話　電車  google mapの４ヶ所ある*/
+.font_b1{font-size:107%;}
+
+
+/*一番上の風景地図の寸法*/
+.picture_size{width:100%;}
+
+/*バスの表題とリンクとの間隔*/
+.bus_a1{margin-top:1em;}
+
+/*キャンパスマップの表題とキャンパスマップへのリンクとの間隔*/
+.campus_map_1{margin-top:1em; }
+
+/*キャンパスマップの大きさ*/
+.campus_map_size{width:70%;}
+
+/*キャンパスマップの並べ方*/
+.t1{margin-left:auto; margin-right:auto;}
+
+
+
+
+#landscape{margin-top:2em;}
+
+#adress_telephone{margin-top:1em; text-align:center; }
+
+#train{margin-top:3em; text-align:center;}
+
+#bus{margin-top:3em; text-align:center; width:100%;}
+
+#campus_map{margin-top:3em; text-align:center;}
+
+#geo_graph{margin-top:3em; margin-bottom:1em;}
+
+#map{margin-top:3em; margin-bottom:6em; text-align:center;}
+
+
